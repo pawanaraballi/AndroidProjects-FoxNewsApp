@@ -1,0 +1,19 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingBottom="@dimen/activity_vertical_margin" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" tools:context="group5_inclass_06.com.foxnewsapp.MainActivity">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_width="fill_parent" android:orientation="vertical" android:gravity="center_horizontal" android:layout_height="fill_parent"
+            android:background="#d63232">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/tv_mostPopular" android:layout_marginBottom="15dip" android:textSize="25sp" android:id="@+id/textView_mostPopular"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/tv_entertainment" android:layout_marginBottom="15dip" android:textSize="25sp" android:id="@+id/textView_entertainment"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/tv_health" android:layout_marginBottom="15dip" android:textSize="25sp" android:id="@+id/textView_health"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/tv_lifestyle" android:layout_marginBottom="15dip" android:textSize="25sp" android:id="@+id/textView_lifestyle"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/tv_pinion" android:layout_marginBottom="15dip" android:textSize="25sp" android:id="@+id/textView_opinion"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/tv_politics" android:layout_marginBottom="15dip" android:textSize="25sp" android:id="@+id/textView_politics"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/tv_science" android:layout_marginBottom="15dip" android:textSize="25sp" android:id="@+id/textView_science"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/tv_sports" android:layout_marginBottom="15dip" android:textSize="25sp" android:id="@+id/textView_sport"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/tv_tech" android:layout_marginBottom="15dip" android:textSize="25sp" android:id="@+id/textView_tech"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/tv_travel" android:layout_marginBottom="15dip" android:textSize="25sp" android:id="@+id/textView_travel"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/tv_US" android:layout_marginBottom="15dip" android:textSize="25sp" android:id="@+id/textView_US"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

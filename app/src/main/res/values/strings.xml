@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FoxNewsApp</string>
+    <string name="tv_mostPopular">Most Popular</string>
+    <string name="tv_entertainment">Entertainment</string>
+    <string name="tv_health">Health</string>
+    <string name="tv_lifestyle">Lifestyle</string>
+    <string name="tv_pinion">Opinion</string>
+    <string name="tv_politics">Politics</string>
+    <string name="tv_science">Science</string>
+    <string name="tv_sports">Sports</string>
+    <string name="tv_tech">Tech</string>
+    <string name="tv_travel">Travel</string>
+    <string name="tv_US">U.S.</string>
+    <string name="textview_title">TitleText</string>
+    <string name="PublicationDateText">PublicationDate</string>
+    <string name="NewsImage">NewsImage</string>
+    <string name="Description">Description</string>
+</resources>
